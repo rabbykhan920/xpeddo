@@ -1,0 +1,82 @@
+<!-- Conctact Us -->
+          <section class="my-24">
+             <!-- heading -->
+          <div class="text-center mb-10">
+            <h4 class="btn text-white bg-gradient-to-r from-[#ACD455] to-[#53BA4B]">Conctact Us</h4>
+            <h2 class="text-3xl font-bold py-4">Let’s cooperate!</h2>
+            <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered <br> alteration in some form.</p>
+           </div>
+            <!-- heading -->
+          
+            <div class="flex justify-center ">
+
+              <div class="flex-col lg:flex-row  space-y-8 ">
+                  
+                <div class=""> 
+                 <div class="mb-5">
+                 <input type="text" placeholder="your Name" class=" bg-[#F3F3F3] p-6 md:w-[324px]  mr-5">
+                 <input type="email" placeholder="your Email" class=" bg-[#F3F3F3] p-6 md:w-[324px]">
+               </div>
+             
+                 <input type="email" placeholder="your Email" class=" bg-[#F3F3F3] p-6 md:w-[324px]  mr-5">
+                 <input type="text" placeholder="Subject" class=" bg-[#F3F3F3] p-6 md:w-[324px]">
+ 
+               </div>
+                 <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" class="block bg-[#F3F3F3] p-6 md:w-[680px]"></textarea>
+                 <button class="btn bg-gradient-to-r from-[#ACD455] to-[#53BA4B] hover:bg-black text-white rounded-md block">Send Message</button>
+             </div>
+            
+              <div class="flex md:gap-20 xl:gap-10 gap-5 -mt-8">
+                <div class="grid grid-cols-1 ">
+                    <div class="flex justify-center rounded-box px-20 py-10 mb-6">
+                      <div class="">
+                        <i class="fa-solid fa-location-dot py-5 px-5 text-3xl rounded-lg bg-gradient-to-r from-[#ACD455] to-[#53BA4B] text-white mr-5 "></i> 
+                      </div>
+                        <div class="space-y-5">
+                        
+                          <p class="text-[#707070] ">Location</p>
+                          <h2 class="text-base"> 
+                         76/A, Green valle, Califonia <br>
+                         United State
+                      </h2>
+                         
+    
+                        </div>
+                      </div>  
+                    <div class=" rounded-box px-20 py-10  mb-6">
+                       
+                        <div class="space-y-5">
+
+                         <div class=""> <i class="fa-solid fa-phone py-5 px-5 text-3xl rounded-lg bg-gradient-to-r from-[#ACD455] to-[#53BA4B] text-white mr-5 "></i>
+                          </div>
+                          <p class="text-[#707070]">Call Us
+                            </p>
+                          <h2 class="text-base">+1 756 445 5658 <br>
+                            +1 125 458 5555</h2>
+    
+                        </div>
+                      </div>  
+                    <div class=" rounded-box px-20 py-10 mb-6">
+                        <div class="space-y-5">
+                          <p class="text-[#707070]">Mail Us</p>
+                          <h2 class="text-base">info@mail.com <br>
+                            support@mail.com</h2>
+    
+                        </div>
+                      </div> 
+                      
+
+                </div>
+          
+                
+            </div>
+    
+         
+    
+          </div>
+
+
+          </section>
+          <!-- Conctact Us -->
+
+
