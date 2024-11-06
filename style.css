@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    max-width: 65rem;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 5rem;
+    text-align: center;
+    background: #fff;
+    border: 0.5rem solid black;
+  }
+  hr {
+    border: 0;
+    border-bottom: 0.0625rem solid black;
+    margin: 3rem 0;
+  }
+  button {
+    font-size: 2em;
+    background: black;
+    color: #fff;
+    border: 0.25rem solid black;
+    padding: 0.85em 0.75em;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  button:hover {
+    color: black;
+  }
+  button::after {
+    content: "";
+    background:black;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+  }
+  button[class^="slide"]::after {
+    transition: all 0.35s;
+  }
+  button[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+  }
+  button.slide_from_top::after {
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+  }

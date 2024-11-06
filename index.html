@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xpeddo</title> 
     <!-- links -->
+     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -26,14 +27,14 @@
           /* smooth scrolling for entire document  */
           html{
            scroll-behavior: smooth;
-          }
+          } 
      </style>
 </head>
 <body class="font-poppains scroll-smooth">
   <!-- header start  -->
   <header class="">
     <!-- navbar start -->
-    <nav class="">
+    <nav class="fixed top-0 left-0 w-full text-black z-50">
       <div class="navbar bg-gradient-to-r from-[#ACD455] to-[#53BA4B]">
         <div class="navbar-start">
           <div class="dropdown">
@@ -92,7 +93,7 @@
           industry. Lorem Ipsum has been the industry's standard <br>
           dummy text ever since
                     </p>
-                    <button class="btn hover:bg-black hover:text-white">Learn More</button>
+                    <button class="btn slide_from_top hover:bg-black hover:text-white">Learn More</button>
                   </div>
                 </div>
               </div>
