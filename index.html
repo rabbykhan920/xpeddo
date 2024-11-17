@@ -34,7 +34,7 @@
   <!-- header start  -->
   <header class="">
     <!-- navbar start -->
-    <nav class="fixed top-0 left-0 w-full text-black z-50">
+    <nav class="fixed top-0 left-0 w-full text-black z-50 transition-colors duration-300">
       <div class="navbar bg-gradient-to-r from-[#ACD455] to-[#53BA4B]">
         <div class="navbar-start">
           <div class="dropdown">
@@ -63,7 +63,7 @@
                       <li><a href="#Contact">contact</a></li>
                     </ul>
                   </div>
-                  <a href="index.html" class="btn text-3xl text-white bg-transparent border-none hover:bg-transparent ml-24">Xpeddo</a>
+                  <a href="index.html" class="btn text-3xl shadow-none text-white bg-transparent border-none hover:bg-transparent ml-24">Xpeddo</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-white font-semibold">
@@ -83,7 +83,7 @@
                 <div class="hero-content flex-col lg:flex-row-reverse">
                   <img
                     src="img/hero.webp"
-                    class="rounded-lg shadow-2xl w-1/2" />
+                    class="rounded-lg w-1/2" />
                   <div>
                     <h4>We Create Ideas</h4>
                     <h1 class="md:text-5xl text-3xl font-bold mt-4">Build Stunning Website
@@ -157,7 +157,7 @@
             <!-- survices -->
             <section id="Services" class="my-24">
                <!-- heading -->
-               <div class="text-center">
+               <div class="text-center mb-20">
                 <h4 class="btn bg-gradient-to-r from-[#ACD455] to-[#53BA4B]">Services</h4>
                 <h2 class="text-3xl font-bold py-4">Services we provide</h2>
                 <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut <br> labore et dolore magna aliqua.</p>
@@ -166,61 +166,115 @@
               <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
               <!-- card-1 -->
               <div class="card bg-base-100 shadow-xl rounded-none ">
-                <div class="card-body">
-                 
-                  <h2 class="text-xl font-semibold"> <i class="fa-solid fa-laptop bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent"></i> Web Development</h2>
+                <div class="card-body ">
+                  <div class="flex gap-5">
+
+                 <div class="">
+                  <i class="fa-solid fa-laptop bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent text-2xl"></i> 
+                 </div>
+
+                 <div class="">
+                  <h2 class="md:text-xl text-base font-semibold">Web Development</h2>
                   <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt aliqua.</p>
-                  
+                </div>
+
+              </div>
+
                 </div>
               </div>
               <!-- card-1 -->
               <!-- card-2 -->
               <div class="card bg-base-100 shadow-xl rounded-none ">
-                <div class="card-body">
-                 
-                  <h2 class="text-xl font-semibold"><i class="fa-solid fa-bezier-curve bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent"></i> Logo Design</h2>
+                <div class="card-body ">
+                  <div class="flex gap-5">
+                    
+                    <div class="">
+                      <i class="fa-solid fa-bezier-curve bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent text-2xl"></i>  
+                    </div>
+
+                    <div class="">
+                      <h2 class="md:text-xl text-base font-semibold">Logo Design</h2>
                   <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt aliqua.</p>
-                  
                 </div>
+                
               </div>
-              <!-- card-2 -->
+              
+            </div>
+          </div>
+          <!-- card-2 -->
               <!-- card-3 -->
               <div class="card bg-base-100 shadow-xl rounded-none ">
-                <div class="card-body">
-                 
-                  <h2 class="text-xl font-semibold"><i class="fa-solid fa-desktop bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent"></i> SEO & Optimization</h2>
+                <div class="card-body ">
+                  <div class="flex gap-5">
+
+                 <div class="">
+                  <i class="fa-solid fa-desktop bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent text-2xl"></i> 
+                 </div>
+
+                 <div class="">
+                  <h2 class="md:text-xl text-base font-semibold">SEO & Optimization</h2>
                   <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt aliqua.</p>
-                  
+                </div>
+
+              </div>
+
                 </div>
               </div>
               <!-- card-3 -->
               <!-- card-4 -->
               <div class="card bg-base-100 shadow-xl rounded-none ">
-                <div class="card-body">
-                 
-                  <h2 class="text-xl font-semibold"><i class="fa-regular fa-envelope bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent"></i> Email Marketing</h2>
+                <div class="card-body ">
+                  <div class="flex gap-5">
+
+                 <div class="">
+                  <i class="fa-regular fa-envelope bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent text-2xl"></i> 
+                 </div>
+
+                 <div class="">
+                  <h2 class="md:text-xl text-base font-semibold">Email Marketing</h2>
                   <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt aliqua.</p>
-                  
+                </div>
+
+              </div>
+
                 </div>
               </div>
               <!-- card-4 -->
               <!-- card-5 -->
               <div class="card bg-base-100 shadow-xl rounded-none ">
-                <div class="card-body">
-                 
-                  <h2 class="text-xl font-semibold"><i class="fa-solid fa-bug bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent"></i> Bug Fixing</h2>
+                <div class="card-body ">
+                  <div class="flex gap-5">
+
+                 <div class="">
+                  <i class="fa-solid fa-bug bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent text-2xl"></i> 
+                 </div>
+
+                 <div class="">
+                  <h2 class="md:text-xl text-base font-semibold">Bug Fixing</h2>
                   <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt aliqua.</p>
-                  
+                </div>
+
+              </div>
+
                 </div>
               </div>
               <!-- card-5 -->
               <!-- card-6 -->
               <div class="card bg-base-100 shadow-xl rounded-none ">
-                <div class="card-body">
-                 
-                  <h2 class="text-xl font-semibold"><i class="fa-solid fa-object-ungroup bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent"></i> UI/Ux Design</h2>
+                <div class="card-body ">
+                  <div class="flex gap-5">
+
+                 <div class="">
+                  <i class="fa-solid fa-object-ungroup bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent text-2xl"></i>  
+                 </div>
+
+                 <div class="">
+                  <h2 class="md:text-xl text-base font-semibold">UI/Ux Design</h2>
                   <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt aliqua.</p>
-                  
+                </div>
+
+              </div>
+
                 </div>
               </div>
               <!-- card-6 -->
@@ -526,7 +580,7 @@
         <!-- expart team -->
          <!-- Choose Your Plan -->
          
-         <section class="my-24  bg-[#DCE0E4] py-32 md:px-20 gap-10 rounded-lg">
+         <section class="my-24  bg-[#DCE0E4] py-32 md:px-20 gap-10 ">
           <!-- heading -->
           <div class="text-center mb-10">
             <h4 class="btn text-white bg-gradient-to-r from-[#ACD455] to-[#53BA4B]">Pricing Plan</h4>
@@ -537,7 +591,7 @@
              <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
      
          <!-- card-1 -->
-         <div class="card bg-base-100 shadow-xl text-center">
+         <div class="card bg-base-100 shadow-xl rounded-md text-center">
           <div class="card-body border-b-2 border-dotted border-green-500">
             <h2 class=" md:text-5xl text-3xl font-semibold bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent">$59.00</h2>
             <p>For enterprise use</p>  
@@ -553,7 +607,7 @@
         </div>
          <!-- card-1 -->
          <!-- card-2 -->
-         <div class="card bg-base-100 shadow-xl text-center">
+         <div class="card bg-base-100 shadow-xl text-center rounded-md">
           <div class="card-body border-b-2 border-dotted border-green-500">
             <h2 class=" md:text-5xl text-3xl font-semibold bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent">$79.00</h2>
             <p>For enterprise use</p>  
@@ -569,7 +623,7 @@
         </div>
          <!-- card-2 -->
          <!-- card-3 -->
-         <div class="card bg-base-100 shadow-xl text-center">
+         <div class="card bg-base-100 shadow-xl text-center rounded-md">
           <div class="card-body border-b-2 border-dotted border-green-500">
             <h2 class=" md:text-5xl text-3xl font-semibold bg-gradient-to-r from-lime-300 to-green-600 bg-clip-text text-transparent">$89.00</h2>
             <p>For enterprise use</p>  
@@ -594,10 +648,10 @@
            <!-- heading -->
            <div class="text-center mb-10">
             <h4 class="btn text-white bg-gradient-to-r from-[#ACD455] to-[#53BA4B]">Frequently asked questions</h4>
-            <h2 class="text-3xl font-bold py-4">
+            <h2 class="md:text-3xl text-xl font-bold py-4">
               We have some FAQ to <br>
               inform you more</h2>
-            <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available, but the <br>
+            <p class="text-gray-500 text-xs">There are many variations of passages of Lorem Ipsum available, but the <br>
               majority have suffered alteration in some form. 
               </p>
            </div>
@@ -647,17 +701,31 @@
             <!-- main end -->
             <!-- footer-start -->
             <footer id="Contact" class="footer text-base-content p-10 bg-gradient-to-r from-[#ACD455] to-[#53BA4B] md:py-40 text-white">
+              
               <aside>
                 
                <h1 class="md:text-4xl text-2xl font-bold mb-4">Xpeddo</h1>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit, sed do eiusmod tempor <br> incididunt.
                 </p>
-                <div class="mt-4">
-                <i class="fa-brands fa-facebook text-base py-2 px-2 rounded-lg border mr-5"></i>
-                <i class="fa-brands fa-twitter text-base py-2 px-2 rounded-lg border mr-5"></i>
-                <i class="fa-brands fa-linkedin text-base py-2 px-2 rounded-lg border mr-5"></i>
-                <i class="fa-brands fa-google text-base py-2 px-2 rounded-lg border"></i>
+                <div class="mt-4 flex">
+                  <div class="">
+                    <a href="">
+                      <i class="fa-brands fa-facebook text-base py-2 px-2 rounded-lg border mr-5"></i>
+                    </a>
+              </div>
+              <div class="">
+                <a href="">
+                  <i class="fa-brands fa-twitter text-base py-2 px-2 rounded-lg border mr-5"></i></div>
+                </a>
+                <div class="">
+                  <a href="">
+                    <i class="fa-brands fa-linkedin text-base py-2 px-2 rounded-lg border mr-5"></i></div>
+                  </a>
+               <div class="">
+                <a href="">
+                  <i class="fa-brands fa-google text-base py-2 px-2 rounded-lg border"></i></div>
+                </a>
               </div>
               </aside>
               <nav>
